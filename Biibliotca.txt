@@ -1,0 +1,71 @@
+# Biblioteca - Proyecto en Python
+Este proyecto es una aplicación de consola escrita en Python que permite gestionar
+una **biblioteca de libros**. 
+Su interfaz es un menú interactivo, podrás agregar, listar, actualizar y eliminar libros.
+Los datos se aamcenan en un archivo JSON para asegurar permanenncia.
+
+## Version
+- Python 3.10 
+
+## Requisitos
+- Python 3.10 o superior
+- pip (gestor de paquetes de Python)
+
+##  Funcionalidades
+-  Agregar nuevos libros
+-  Listar libros existentes en forma tabulada
+-  Actualizar información de un libro por ID
+-  Eliminar libros por ID
+-  Guardado automático en archivo `dato.json`
+
+Cada libro cuenta con los siguientes campos:
+- ID único (asignado automáticamente)
+- Título
+- Autor
+- Año de publicación
+- Género (seleccionado de una lista predefinida)
+
+##  Estructura del proyecto
+inventario-biblioteca/
+│
+├── main.py              # Menú principal e interacción del usuario
+├── libreria.py          # Clase Biblioteca: lógica del inventario
+├── libro.py             # Clase Libro: modelo de datos
+├── dato.json            # Archivo JSON con los libros registrados
+└── README.md            # Documentación del proyecto
+
+## 🛠 Instalación y ejecución
+1. Crear un entorno virtua y el terminal ejecuta:
+
+python -m venv venv
+
+2. Activar el entorno virtual
+Para windows en  el terminnal ejecuta la siguiente linea de codigo:
+
+venv\Scripts\activate
+
+y e linux :
+source venv/bin/activate
+
+3. Instalar dependencias
+En el terminal ejecuta:
+
+pip install tabulate
+
+4.crear el respositoorio e GitHub
+ -ingresa a https://github.com/
+ -crear nueevo repositorio: libreria
+ -conectar repositorio local con GitHub
+  terminal: git remote add origin 
+
+
+5. Ejecutar la aplicación
+
+Ejecuta la siguiente linea de codigo en el terminal:
+
+python main.py
+
+### Clonar el repositorio
+
+git clone https://github.com/tu-usuario/inventario-biblioteca.git
+cd inventario-biblioteca
