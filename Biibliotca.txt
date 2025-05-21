@@ -56,8 +56,8 @@ pip install tabulate
  -ingresa a https://github.com/
  -crear nueevo repositorio: libreria
  -conectar repositorio local con GitHub
-  terminal: git remote add origin 
-
+  terminal: git remote add origin https://github.com/DanielVidela1993/libreria.git
+  termminal:  git push -u origin main
 
 5. Ejecutar la aplicación
 
@@ -65,7 +65,17 @@ Ejecuta la siguiente linea de codigo en el terminal:
 
 python main.py
 
-### Clonar el repositorio
+sigue el menu:
 
-git clone https://github.com/tu-usuario/inventario-biblioteca.git
-cd inventario-biblioteca
+--- Menú de Biblioteca ---
+1. Agregar Libro       
+2. Listar Libros       
+3. Actualizar Libro    
+4. Eliminar Libro      
+5. Salir
+Seleccione una opción: 
+
+
+Desarrollador : Daniel Videla
+Fecha: 21/05/11
+Curso: python + FastAPI
